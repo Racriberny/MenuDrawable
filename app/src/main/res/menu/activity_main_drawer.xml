@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/subirBbDd"
+            android:checked="false"
+            android:title="Subir a la base de datos"
+            android:icon="@drawable/guardar" />
+        <item
+            android:id="@+id/nuevoAlbaran"
+            android:checked="false"
+            android:title="Crear Albaran"
+            android:icon="@drawable/ic_menu_add"
+            />
+        <item
+            android:id="@+id/listarAlbaranes"
+            android:checked="false"
+            android:title="Listar Albaran"
+            android:icon="@drawable/ic_menu_list"
+            />
+    </group>
+</menu>
